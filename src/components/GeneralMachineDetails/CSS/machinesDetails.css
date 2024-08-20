@@ -1,0 +1,155 @@
+.card{
+background: transparent;
+}
+
+.subCard{
+    background-color: var(--color-white);
+    /* box-shadow: var(--box-shadow); */
+}
+
+
+
+#search_button{
+    margin-top: 1.5rem;
+    width: 12rem;
+    height: 2rem;
+}
+/* Custom styles for the label */
+.mantine-Select-label{
+    color: var(--color-bold-text);
+}
+.mantine-1hta5os {
+    padding-top: 0rem;
+}
+ .mantine-Tabs-tab{
+    color: var(--color-bold-text);
+    border-width: 4px;
+    transition: 0.1s ease-in;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.mantine-Tabs-tab:focus{
+    color: var(--color-onclick);
+    border-color: var(--color-onclick);
+   
+}
+
+.subcardHeading{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-bold-text);
+}
+.detailCardcol1{
+font-size: 0.9rem;
+margin-bottom: 0.2rem;
+}
+.detailCardcol2{
+    font-size: 0.9rem;
+margin-bottom: 0.2rem;
+
+}
+  
+.mantine-24itsn{
+    display: none;
+}
+.mantine-kq5u63{
+    
+    
+    content: 'Technical Details';
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    
+}
+
+.mantine-2kfh7k {
+    
+   height: 1rem;
+}
+/* manuals and docs pagination styling */
+.mantine-d3oese {
+       justify-content: flex-end;
+        padding-top: 0.375rem;
+}
+
+    
+/* thead */
+.mantine-1k04sb8>thead>tr>th, .mantine-1k04sb8>tfoot>tr>th, .mantine-1k04sb8>tbody>tr>th {
+    text-align: left;
+    font-weight: bold;
+    color: #495057;
+    font-size: 0;
+    padding: 0;
+}
+.mantine-urkk9t {
+    border: 0;
+    border-top-width: 0;
+    border-top-color: #ced4da;
+    border-top-style: solid;
+    margin: 0;
+}
+.mantine-Stack-root{
+    gap:0;
+}
+.mantine-Table-root{
+    line-height: 1.1;
+}
+.mantine-Table-root>thead>tr>th {
+    border: 0;
+    
+}
+.mantine-Table-root>tbody>tr>td {
+    border: 0;
+    
+}
+.mantine-Table-root>tbody>tr {
+    
+    background-color: var(--color-white);
+    
+}
+.mantine-1k04sb8[data-striped]>tbody>tr {
+    background-color: var(--color-white);
+}
+.mantine-Pagination-control{
+    border-radius: 50%;
+   
+    
+}
+.mantine-18851x2:first-child{
+display: none;
+}
+.mantine-18851x2:last-child{
+    display: none;
+    }
+.mantine-Pagination-control[data-active]{
+    border-color: #228be6;
+    color: black;
+    background-color: transparent;
+}
+/* technical details */
+.mantine-1uaka31 {
+    margin-left: 1.5rem;
+}
+/*pagination techdetails*/
+.mantine-vl6xmj {
+    min-height: 3rem;
+}
+
+
+
+#content {
+    overflow: auto;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column3 {
+    margin-right: 0%;}
+
+.article {
+    height: auto;
+    margin-bottom: 1em;
+    background-color: transparent;
+}
+.mantine-1n3zr08 {
+    padding: 24px;
+}  

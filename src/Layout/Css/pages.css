@@ -1,0 +1,56 @@
+.sidebar-item {
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    color: var(--color-icon);
+     display: flex;
+     
+}
+.sidebar-item:hover{
+    background-color: #F9F9F9;
+}
+
+.sidebar-text{
+/* margin-top: rem; */
+margin-left: 1.2rem; 
+font-size: 1rem;
+text-align: left;
+ font-weight: 500; 
+ color: var(--color-text);
+ width: 100%;
+ padding-left: 0.5rem;
+}
+/* .sidebar-icon[data-active]{
+    color: var(--color-onclick);
+} */
+/* .sidebar-text:hover{
+    background-color: darkgray;
+    border-radius: 0 0.5rem 0.5rem 0;
+} */
+.mantine-fzrc56 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-top: calc(var(--mantine-header-height, 0px) + 1rem);
+    padding-bottom: calc(var(--mantine-footer-height, 0px) + 1rem);
+    padding-left: calc(var(--mantine-navbar-width, 0px) + 0rem);
+    padding-right: calc(var(--mantine-aside-width, 0px) + 0rem);
+    background-color: #f8f9fa;
+}
+/* App shell main component */
+.mantine-fzrc56 {
+    flex: 1 1;
+    width: 80vw;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.active > div{
+    color: var(--color-onclick);
+}
+.active span{
+    color: var(--color-onclick);
+}
+
+
