@@ -69,7 +69,7 @@ function App() {
                 <Route exact path='machine' element={<Suspense fallback={<LoaderComponent/>}><MachinePage /></Suspense>  }/> 
                 <Route exact path='trail' element={  <Suspense fallback={<LoaderComponent/>}><TrailPage /> </Suspense>} />
                 <Route exact path='report' element={ <Suspense fallback={<LoaderComponent/>}><ReportPage /></Suspense>} />
-                <Route exact path='submachine/:machine/:nodeid' element={ <Suspense fallback={<LoaderComponent/>}><SubMachine/></Suspense>} />
+                <Route exact path='submachine/:machine/:nodeid/:machineid' element={ <Suspense fallback={<LoaderComponent/>}><SubMachine/></Suspense>} />
                 {/* <Route exact path='settings' element={ <SettingsPage />} /> */}
               </Route>  
 

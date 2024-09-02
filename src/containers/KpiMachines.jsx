@@ -54,7 +54,7 @@ const KpiMachines = (props) =>
         //     });
         // }
 
-        let baseurl = `ws://43.204.19.66:8000/kpi_web_socket/?machine_id=${machineid}`
+        let baseurl = `ws://192.168.29.144:8000/kpi_web_socket/?machine_id=${machineid}`
 
         const socket = new WebSocket(baseurl);
         socket.onopen = (event) =>

@@ -68,7 +68,7 @@ const StatusMachines = (props) =>
     useEffect(() =>
     {
         setStatusData([])
-        let baseurl = `ws://43.204.19.66:8000/machine_mqtt_data/?machine_id=${machineid}`
+        let baseurl = `ws://192.168.29.144:8000/machine_mqtt_data/?machine_id=${machineid}`
         const socket = new WebSocket(baseurl)
 
         socket.onopen = (event) =>

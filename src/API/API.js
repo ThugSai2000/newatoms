@@ -12,16 +12,16 @@ axios.defaults.xsrfHeaderName='x-csrftoken';
 // export default client;
 
 
-// const client = axios.create({
-//     baseURL: 'http://192.168.29.144:8000/backend',
-// });
-//  export default client
+const client = axios.create({
+    baseURL: 'http://192.168.29.144:8000/backend',
+});
+ export default client
 //  const client = axios.create({
 //     baseURL: '',
 // });
 //  export default client
-const client  = axios;
-export default client;
+// const client  = axios;
+// export default client;
 
 
 //  const client = axios.create({

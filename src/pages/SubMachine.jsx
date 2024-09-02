@@ -125,16 +125,16 @@ const SubMachine = () =>
 
                             <Card width={'100%'} h={'100%'} className='card'>
                                 <Tabs.Panel value="details" pt="xs" >
-                                    <DetailsMachines nodeid={params.nodeid} machineid={params.machine} />
+                                    <DetailsMachines nodeid={params.nodeid} machineid={params.machineid} />
                                 </Tabs.Panel>
                                 <Tabs.Panel value="kpi" pt="xs" >
-                                    <KpiMachines nodeid={params.nodeid} machineid={params.machine} screensize={fullScreen} />
+                                    <KpiMachines nodeid={params.nodeid} machineid={params.machineid} screensize={fullScreen} />
                                 </Tabs.Panel>
                                 <Tabs.Panel value="iostatus" pt="xs" >
-                                    <StatusMachines nodeid={params.nodeid} machineid={params.machine} />
+                                    <StatusMachines nodeid={params.nodeid} machineid={params.machineid} />
                                 </Tabs.Panel>
                                 <Tabs.Panel value="control" pt="xs" >
-                                    <ControlMachines nodeid={params.nodeid} machineid={params.machine} />
+                                    <ControlMachines nodeid={params.nodeid} machineid={params.machineid} />
                                 </Tabs.Panel>
                             </Card>
 

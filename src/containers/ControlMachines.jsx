@@ -66,7 +66,7 @@ const ControlMachines = (props) =>
         // web socket
         function websocket()
         {
-            let url = `ws://43.204.19.66:8000/Control_Socket/?machine_id=${machineid}`
+            let url = `ws://192.168.29.144:8000/Control_Socket/?machine_id=${machineid}`
 
             const socket = new WebSocket(url)
 

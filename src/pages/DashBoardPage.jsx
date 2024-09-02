@@ -25,7 +25,7 @@ const DashBoardPage = () =>
     // Establish WebSocket connection and handle messages
     useEffect(() =>
     {
-        let url = `ws://43.204.19.66:8000/dashboardSocket/?user_id=${window.localStorage.getItem('userid')}`;
+        let url = `ws://192.168.29.144:8000/dashboardSocket/?user_id=${window.localStorage.getItem('userid')}`;
         const socket = new WebSocket(url);
 
         socket.onopen = (event) =>
@@ -138,7 +138,7 @@ const DashBoardPage = () =>
                                                         <Group key={value}>
                                                             <Indicator color={key.Machines_status === "Active" ? "green" : "red"} />
                                                             <Text color='var(--color-text)' weight={400} className='detailsCardcol1'>
-                                                                <Link id='dashboardlink' to={`/app/submachine/${key.Machine_name}/${key.node_id}`} replace>{formatString(key.Machine_name)}</Link>
+                                                                <Link id='dashboardlink' to={`/app/submachine/${key.Machine_name}/${key.node_id}/${key.machine_id}`} replace>{formatString(key.Machine_name)}</Link>
                                                             </Text>
                                                         </Group>
                                                     ) : (
